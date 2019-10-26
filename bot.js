@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'apply') {
-    	message.reply('Thanks For your Application!');
+    	message.reply('Thanks For your Application!');message.reply
   	}
 });
 
