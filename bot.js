@@ -6,13 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'apply') {
+    if (message.content === 'a.apply') {
     	message.reply('Applied the Discord server, and now ready for the Fam');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'Social') {
+    if (message.content === 'a.youtube') {
     	message.reply('https://www.youtube.com/channel/UCqehLUaBDWE2pU76SgW6eKw?view_as=subscriber');
   	}
 });
